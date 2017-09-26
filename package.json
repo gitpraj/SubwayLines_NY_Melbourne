@@ -5,8 +5,7 @@
     "build": "node ./scripts/build.js"
   },
   "repository": {
-    "type": "git",
-    "url": "git+https://github.com/clhenrick/React-Leaflet-demo"
+    "type": "git"
   },
   "keywords": [
     "react, leaflet"
@@ -14,9 +13,7 @@
   "author": "Chris Henrick",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/clhenrick/React-Leaflet-demo/issues"
   },
-  "homepage": "http://clhenrick.github.io/React-Leaflet-demo",
   "name": "react-leaflet-demo",
   "version": "0.0.1",
   "private": true,
