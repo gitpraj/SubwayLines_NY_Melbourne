@@ -65,7 +65,7 @@ module.exports = {
       },
       {
         test: /\.(jpg|png|gif|eot|svg|ttf|woff|woff2)(\?.*)?$/,
-        include: [paths.appSrc, paths.appNodeModules],
+        include: [paths.appSrc, paths.appNodeModules, paths.imgSrc],
         loader: 'file',
         query: {
           name: 'static/media/[name].[ext]'

@@ -220,7 +220,6 @@ class Map extends Component {
               filterLines={this.updateMap} />
         }
         <div ref={(node) => this._mapNode = node} id="map" />
-        <ForkMe />
       </div>
     );
   }
