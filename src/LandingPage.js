@@ -38,8 +38,18 @@ class LandingPage extends Component {
       const {imgSrc} = this.state
       return (
         <div className="jumbotron">
-          <div className="container float_on_the">
+          <div className="float_on_the">
             <div className="col-md-5 landing-page-block landing-block">
+                <div className="center-image">
+                  <img src={imgSrc} onClick={this.click}
+                    onMouseOver={this.mouseOver} onMouseOut={this.mouseOut}>
+                  </img>
+                </div>
+            </div>
+          </div>
+
+          <div className="float_on_the_right">
+            <div className="col-md-7 landing-page-block landing-block">
                 <div className="center-image">
                   <img src={imgSrc} onClick={this.click}
                     onMouseOver={this.mouseOver} onMouseOut={this.mouseOut}>

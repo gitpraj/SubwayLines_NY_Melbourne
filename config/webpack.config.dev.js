@@ -55,7 +55,7 @@ module.exports = {
       },
       {
         test: /\.css$/,
-        include: [paths.appSrc, paths.appNodeModules],
+        include: [paths.appSrc, paths.appNodeModules, paths.styleSrc],
         loader: 'style!css!postcss'
       },
       {
